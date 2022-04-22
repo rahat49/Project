@@ -29,7 +29,7 @@
   <a class="footer-link" href="https://www.facebook.com/">Facebook</a>
    <a class="footer-link" href="https://twitter.com/">Twitter</a>
    <a class="footer-link" href="https://www.Instagram.com/">Instragram</a>
-   <p class="credit">© 2022 TEAM70.</p>
+   <p class="credit">©2022 TEAM70.</p>
 </div>
   </body>
 </html>
