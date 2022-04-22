@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script&family=Fira+Sans&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+body
+{
+  background: url(pic/back.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  }
+.header
+  {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: grey;
+  }
+li,a,button
+  {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: none;
+    color:  #edf0f1;
+  }
+.nav-bar
+{
+  list-style: none;
+}
+.nav-bar li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav-bar li a:hover{
+color: #041562;
+}
+.logo{
+margin-right: auto;
+  height: 50px;
+  weight:40px;
+  cursor: pointer;
+}
+button{
+padding:  8px 25px;
+background-color: black;
+border:  none;
+border-radius: 50px;
+cursor: pointer;
+}
+button:hover{
+  background-color: #041562;
+}
+.middle
+{
+  text-align: center;
+  padding-bottom: 50px;
+  }
+h1
+{
+font-family: 'Fira Sans', sans-serif;
+color: white;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+font-size: 40px;
+padding-bottom: 50px;
+font-weight: bold;
+}
+.heading
+{
+  font-family: 'Fira Sans', sans-serif;
+  color:black;
+  font-size: 30px;
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+.buttons button{
+ height: 50px;
+ width: 150px;
+ font-size: 18px;
+ font-weight: 600;
+ color: black;
+ background:black;
+ outline: none;
+ cursor: pointer;
+ transition: .10s;
+}
+.buttons .btn2{
+ margin-left: 25px;
+}
+.buttons button:hover{
+ background:#041562;
+}
+.login-page {
+  width: 360px;
+padding:50px;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: grey;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: 'Asul', sans-serif;
+  outline: 0;
+  background: white;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: 'Fira Sans', sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: black;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background:#041562 ;
+}
+.form .message  {
+  font-family: 'Fira Sans', sans-serif;
+  margin: 15px 0 0;
+  color: white;
+  font-size: 14px;
+}
+.form .message a {
+  color: black;
+  text-decoration: none;
+}
+.form .message a:hover
+{
+ color:#041562;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+.msg{
+  width: 200px;
+  border-radius: 4px;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .box select {
+    background-color: #0563af;
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  }
+
+  .box::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+  }
+
+  .box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .box select option {
+    padding: 30px;
+  }
+  .footer
+  {
+  background: grey;
+  padding: 10px;
+  }
+  .footer-link
+  {
+    padding: 10px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+  }
+  .footer-link:hover
+  {
+   color: #041562;
+  }
+  .credit
+  {
+    font-family:  'Fira Sans', sans-serif;
+    font-size: 0.75em;
+    color: black;
+    padding-top: 5px;
+  }

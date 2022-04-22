@@ -1,0 +1,96 @@
+*{margin:0; padding:0;
+	  font-family:  'Fira Sans', sans-serif;
+	font-size:14px;
+	}
+
+body {
+
+	}
+
+#container{width:1000px;
+	margin:auto;
+	}
+
+#content{ margin-top:10px;
+	border-radius:10px; min-height:500px;
+	border:solid 2px white;
+	background:rgba(255,255,255,0.5);z-index: 1;}
+
+.collapsibleList li > input + * {
+ display: block;
+}
+
+.collapsibleList li > input:checked + * {
+ display: none;
+}
+
+.collapsibleList li > input {
+ display: none;
+}
+
+ul li a{text-decoration:none; color:black;}
+
+
+.collapsibleList, .right .collapsibleList label {
+ cursor: pointer;
+}
+.collapsibleList  li{margin-top:15px;}.right .collapsibleList  li:first-child{margin-top:0px;}
+.collapsibleList  li, .collapsibleList  ul li{list-style:none; }
+.quick-links{background:purple;;width:146px;display:block;
+	border-radius:5px;border-top-left-radius:8px;padding:7px; padding-top:5px;color:white;font-weight:bold;}
+.collapsibleList  li ul li{cursor:pointer;padding:5px;margin:0;border-bottom:1px solid #CFCFCF;background: linear-gradient(#f0f0f0,#CFCFCF,#f0f0f0);
+	text-align:left; text-indent:22px;}
+.collapsibleList  li ul li:hover{background: linear-gradient(#CFCFCF,#f0f0f0,#CFCFCF);}
+.collapsibleList  li ul{margin-top:-4px;}
+.collapsibleList  li ul li:first-child{background:#fff;padding:2px;cursor:default;}
+.collapsibleList  li ul li:last-child{border-bottom-left-radius:5px;border-bottom-right-radius:5px; }
+
+.right-header{background:#;width:210px;padding:3px;display:block;border-radius:5px;padding:7px; color:white;font-weight:bold;}
+
+.collapsibleList  li ul li:before {
+		 content: "\00BB \0020";
+	     }
+
+		.right .collapsibleList  li ul li:before {
+		 content: "";
+	     }
+.collapsibleList  li ul li:first-child:before {
+		 content: "";
+	     }
+
+.left-container{width:160px; margin-top:-15px;margin-left:0px;position:relative;display:inline-block;}
+.main-content{margin:0;width:580px; margin-left:4px; box-shadow:5px 5px 5px #888888;border-left:solid 1px #fff;position:absolute;display:inline-block;}
+
+.cbo{padding:10px;background:purple;color:white;font-weight:bold;}
+.cbo select {
+display:inline-block;
+   background: white;
+   width: 150px;
+   padding: 1px;
+   font-size: 12px;
+   line-height: 1px;
+   border: 0;
+   border-radius: 3px;
+  color:black;
+   -webkit-appearance: none;
+   }
+
+
+
+
+#status{text-align:center; padding-top:13px;}
+
+
+
+
+
+.parking{background:purple; padding:10px; margin:auto; width:400px; color:white;}
+.parking ol{margin-left:25px;}
+.parking a{background:gold; color:purple; padding:4px; border-radius:4px;margin-top:10px; text-decoration:none;width:413px;position:absolute;text-align:center;margin-left:-10px;}
+.parking a:hover{background:yellow;}
+
+.strt{width:480px; display:inline-block;padding-top:10px;}
+.strt p, .status{font-weight:bold; text-align:center;}
+body table{width:440px;background:yellow;}
+body table tr td{width:50%;border:solid 1px gray;}
+.status{margin-top:10px;}
